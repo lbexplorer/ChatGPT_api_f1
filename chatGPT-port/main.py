@@ -3,7 +3,7 @@ import openai
 # 设置ChatGPT的API密钥
 from tenacity import retry, stop_after_attempt, wait_exponential
 
-openai.api_key = "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"
+openai.api_key = "openai-key"
 system_gen_system_prompt = """Your job is to generate system prompts for GPT-4, given a description of the use-case and some test cases.
 
 The prompts you will be generating will be for freeform tasks, such as generating a landing page headline, an intro paragraph, solving a math problem, etc.
